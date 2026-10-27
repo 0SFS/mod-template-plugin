@@ -1,0 +1,15 @@
+{
+  "name": "@0sfs/mod-template-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Template for a sandboxed Rust/WASM 0SFS plugin.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "exports": {
+    "./manifest": "./public/0sfs-mod.json",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-mod.mjs"
+  }
+}

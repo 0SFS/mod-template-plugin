@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "0sfs/mod-template-plugin",
+  "kind": "plugin",
+  "name": "Example plugin",
+  "summary": "Replace this summary, then push.",
+  "execution": "wasm",
+  "provenance": {
+    "repository": "https://github.com/0SFS/mod-template-plugin",
+    "owner": "0SFS",
+    "license": "AGPL-3.0-only",
+    "authors": [
+      "0SFS contributors"
+    ]
+  },
+  "dependencies": [],
+  "wasm": {
+    "path": "mod.wasm",
+    "readProperties": [],
+    "writeProperties": []
+  }
+}
